@@ -225,7 +225,7 @@ input{
 .welcome .teks-kedua{
     float: right;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .welcome .teks-kedua u {
@@ -234,8 +234,8 @@ input{
 
 .welcome img{
     margin-left: 50px;
-    margin-bottom: 0;
-    width:490px;
+    margin-bottom: -10px;
+    width:530px;
 }
 
 .welcome-2{
