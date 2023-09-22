@@ -2,15 +2,16 @@
 
 *{
     margin: 0;
+
 }
 .navbar{
     width: 100%;
 }
 nav{
-    position: fixed;
+    position:fixed;
     padding-top: 20px;
     background-color: rgba(0, 0, 0, 0.02);
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     z-index: 1;
     width: 100%;
 }
@@ -184,7 +185,7 @@ input{
 .welcome{
     /* width: 100%; */
     min-height: 600px;
-    padding: 50px 50px 0px 50px;
+    padding: 50px 50px 0px 60px;
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
     margin-top: -40px;
@@ -194,7 +195,6 @@ input{
     background-position-y: bottom;
     background-repeat: no-repeat;
     background-position-x: right;
-   
 }
 
 .content-1{
@@ -235,6 +235,7 @@ input{
 .welcome img{
     margin-left: 50px;
     margin-bottom: 0;
+    width:490px;
 }
 
 .welcome-2{
@@ -243,7 +244,10 @@ input{
     background-repeat: no-repeat;
     /* background-position: center; */
     padding: 20px;
+}
 
+.welcome-2 a{
+    text-decoration:none;
 }
 
 .welcome-2 .kiri-2{
@@ -275,6 +279,10 @@ input{
     cursor: pointer;
     transition: 1s;
     letter-spacing: 1px;
+}
+
+.welcome a{
+    text-decoration:none;
 }
 
 .btn-jelajah:hover{
@@ -389,10 +397,9 @@ input{
 
 
 .wrapper-5{
-    height: 400px;
+    min-height: 400px;
     background-color: white;
     padding: 40px;
-
     text-align: center;
 }
 
@@ -426,16 +433,16 @@ input{
 }
 
 .content-7{
-    height: 200px;
+    min-height: 200px;
     background-image: url(../img/FOOTER.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: contain; */
     padding: 50px;
 }
 
 .end-quote{
     width: 120px;
-    display: inline-table;
+    display: inline-block;
     margin-right: 50px;
     color: white;
   
