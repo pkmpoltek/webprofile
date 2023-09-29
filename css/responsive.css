@@ -1,130 +1,128 @@
 /* Tablet User's */
-@media only screen and (max-width:990px){
-    .icon{
-        float: right;
-        margin-right: 20px;
-        cursor: pointer;
-        display: block;
-    }
+@media only screen and (max-width: 990px) {
+  .icon {
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+    display: block;
+  }
 
-    nav{
-        position:static;
-        width: 100%;
-        padding-bottom:50px;
-    }
+  nav {
+    position: static;
+    width: 100%;
+    padding-bottom: 50px;
+  }
 
-    nav b{
-        float: left;
-    }
+  nav b {
+    float: left;
+  }
 
-    nav ul li{
-        transition: 2s;
-        display: block; 
-        padding: 20px 50px 20px 20px;
-    }
+  nav ul li {
+    transition: 2s;
+    display: block;
+    padding: 20px 50px 20px 20px;
+  }
 
-    nav ul li:hover{
-        border-radius: 10px;
-        border-bottom: 1px solid rgb(32, 30, 30);
-    }
+  nav ul li:hover {
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(32, 30, 30);
+  }
 
-    .nav-btn.login{
-        border: none;
-    }
+  .nav-btn.login {
+    border: none;
+  }
 
-    .nav-btn.signup{
-        margin-top: 5px;
-        padding-left: 20px;
-    }
+  .nav-btn.signup {
+    margin-top: 5px;
+    padding-left: 20px;
+  }
 
-    nav ul {
-        text-align: left;
-        margin-top: 20px;  
-        display: none;
-    }
+  nav ul {
+    text-align: left;
+    margin-top: 20px;
+    display: none;
+  }
 
-    ul{
-        transition: 0.5s;
-    }  
+  ul {
+    transition: 0.5s;
+  }
 
+  input[type="checkbox"] + ul,
+  nav {
+    display: none;
+    transform: translateY(-1000px);
+    transition: 2s;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* opacity: 0; */
+  }
 
-    input[type=checkbox] + ul,nav {
-        display: none;
-        transform: translateY(-1000px);
-        transition: 2s;
-        background-color: rgba(0, 0, 0,0.5);
-        /* opacity: 0; */
-    }
-    
+  input[type="checkbox"]:checked + ul,
+  nav {
+    display: block;
+    transition: 2s;
+    transform: translateY(0px);
+    background-color: rgba(0, 0, 0);
+  }
 
-    input[type=checkbox]:checked + ul,nav {
-        display: block;
-        transition: 2s;
-        transform: translateY(0px);
-        background-color: rgba(0, 0, 0);
-        
-    }
-        
-    .wrapper-holder h1{
-        color: white;
-        margin-top: 130px;
-        margin-left: 50px;
-        font-size: 70px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: left;
-    }
+  .wrapper-holder h1 {
+    color: white;
+    margin-top: 130px;
+    margin-left: 50px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
 
-    .wrapper-holder p{
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        letter-spacing: 3px;
-        margin-left: 50px;
-        margin-top: 10px;
-        text-align: left;
-    }
-    .welcome .teks-kedua{
-        float: right;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 70px;
-    }
+  .wrapper-holder p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .welcome .teks-kedua {
+    float: right;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 70px;
+  }
 
-    .welcome img{
-        margin-left: -100px;
-        margin-bottom: -10px;
-        width:600px;
-    }
+  .welcome img {
+    margin-left: -100px;
+    margin-bottom: -10px;
+    width: 600px;
+  }
 
-    .welcome-2 .kiri-2{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white;
-        text-align: left;
-        width: 50%;
-        padding: 100px;
-        font-size: 30px;
-    }
-    
-    .welcome-2 p{
-        font-family: Arial, Helvetica, sans-serif;
-        color: white;
-        font-size: 15px;
-        letter-spacing: 2px;
-        margin-top: 20px;
-    }
+  .welcome-2 .kiri-2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+    text-align: left;
+    width: 50%;
+    padding: 100px;
+    font-size: 30px;
+  }
 
-    .kanan-4 h1{
-        font-size: 35px;
-    }
+  .welcome-2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+  }
 
-    
-.wrapper-5{
+  .kanan-4 h1 {
+    font-size: 35px;
+  }
+
+  .wrapper-5 {
     min-height: 400px;
     background-color: white;
     padding: 40px;
     text-align: center;
-}
+  }
 
-.sosmed a{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  .sosmed a {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 50px;
     font-weight: 100;
     display: inline-block;
@@ -132,174 +130,181 @@
     letter-spacing: 3px;
     text-decoration: none;
     color: black;
-}
+  }
 
-
-
-.content-6{
+  .content-6 {
     font-size: 50px;
-}
+  }
 
-.data-side{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  .data-side {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     display: inline-block;
     margin: 30px 30px;
     font-size: 20px;
-}
+  }
 
-#angka{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  #angka {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-size: 50px;
+  }
+
+  /* PAGE MITRA */
+  .text-1,
+  .text-2,
+  .text-3 {
+    padding: 50px;
+    line-height: normal;
+  }
 }
-}
 
-@media only screen and (max-width:600px){
-    nav{
-        width: 100%;
-    }
+@media only screen and (max-width: 600px) {
+  nav {
+    width: 100%;
+  }
 
-    .container .wrapper{
-        width: 100%;
-        height: 500px;
-        /* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0,0.2); */
-        overflow: hidden;
-    }
+  .container .wrapper {
+    width: 100%;
+    height: 500px;
+    /* box-shadow: 10px 10px 10px 10px rgba(0, 0, 0,0.2); */
+    overflow: hidden;
+  }
 
-    .wrapper-holder h1{
-        color: white;
-        margin-top: 100px;
-        margin-right: 200px;
-        font-size: 40px;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: left;
-        cursor: pointer;
-    }
+  .wrapper-holder h1 {
+    color: white;
+    margin-top: 100px;
+    margin-right: 200px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    cursor: pointer;
+  }
 
-    .wrapper-holder p{
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        /* letter-spacing: 4px; */
-        margin-right: 80px;
-        margin-top: 10px;
-        text-align: left;
-        cursor: pointer;
-    }
+  .wrapper-holder p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* letter-spacing: 4px; */
+    margin-right: 80px;
+    margin-top: 10px;
+    text-align: left;
+    cursor: pointer;
+  }
 
-    .welcome .teks-awal{
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 15px;
-        letter-spacing: 1px;
-        font-family: 'Open Sans', sans-serif;
-    }
+  .welcome .teks-awal {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif;
+  }
 
-    .welcome .kiri img{
-        margin-left: 15px;
-        width:500px;
-        margin-bottom: 0;
-        position:absolute;
-        bottom:0;
-        /* left:50; */
-        /* z-index:-2; */
-    }
-    .welcome .teks-kedua{
-        position:static;
-        float: right;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 40px;
-        /* z-index:5; */
-    }
+  .welcome .kiri img {
+    margin-left: 15px;
+    width: 500px;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    /* left:50; */
+    /* z-index:-2; */
+  }
+  .welcome .teks-kedua {
+    position: static;
+    float: right;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 40px;
+    /* z-index:5; */
+  }
 
-    .welcome-2 .kiri-2{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white;
-        text-align: left;
-        width: 90%;
-        padding: 100px 10px 10px 10px;
-        font-size: 20px;
-    }
+  .welcome-2 .kiri-2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+    text-align: left;
+    width: 90%;
+    padding: 100px 10px 10px 10px;
+    font-size: 20px;
+  }
 
-    .kiri-4{
-        float: left;
-        width: 100%;
-        text-align: center;
-        height: auto;
-        /* position: absolute;
+  .kiri-4 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    /* position: absolute;
         bottom: 0; */
-        margin: auto 0;
-    }
+    margin: auto 0;
+  }
 
-    .kanan-4{
-        float: left;
-        width:100%;
-        height: auto;
-        padding: 10px;
-    
-    }
+  .kanan-4 {
+    float: left;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
 
-    .download{
-        margin-top: 20px;
-        margin-bottom:30px;
-    }
-    .download img{
-        width:100px;
-    }
-    
-    .download-item{
-        display: inline-block;
-    }
+  .download {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .download img {
+    width: 100px;
+  }
 
-        
-    .sosmed a{
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 30px;
-        font-weight: 100;
-        display: inline-block;
-        margin: 20px 10px 20px 10px;
-        letter-spacing: 3px;
-        text-decoration: none;
-        color: black;
-    }
+  .download-item {
+    display: inline-block;
+  }
 
+  .sosmed a {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    display: inline-block;
+    margin: 20px 10px 20px 10px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: black;
+  }
 
+  .content-6 {
+    font-size: 30px;
+  }
 
-    .content-6{
-        font-size: 30px;
-    }
+  .data-side {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    display: inline-block;
+    margin: 30px 30px;
+    font-size: 10px;
+  }
 
-    .data-side{
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        display: inline-block;
-        margin: 30px 30px;
-        font-size: 10px;
-    }
+  #angka {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 50px;
+  }
 
-    #angka{
-        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: 50px;
-    }
+  .content-7 {
+    min-height: 200px;
+    background-image: url(../img/FOOTER.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+  }
 
-    .content-7{
-        min-height: 200px;
-        background-image: url(../img/FOOTER.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 50px;
-    }
-    
-    .end-quote{
-        width: 120px;
-        display: inline-block;
-        margin-right: 50px;
-        margin-top:20px;
-        color: white;
-    
-    }
+  .end-quote {
+    width: 120px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 20px;
+    color: white;
+  }
 
-    .end p{
-        width: 200px;
-        color: white;
-        font-size: 10px;
-    }
+  .end p {
+    width: 200px;
+    color: white;
+    font-size: 10px;
+  }
 
+  /* mitra page */
+  /* .text-1,.text-2,.text-3{
+        padding:50px;
+    } */
 }

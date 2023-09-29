@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabunglah menjadi mitra | PKM POLTEK GT 2023</title>
+    <!-- Sertakan FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <style>
+    body {
+      background-image: url(img/-\ LOGIN\ PAGE.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .wrapper-login {
+      width: 100%;
+      height: 100%;
+      /* outline: 2px solid red; */
+    }
+    .container {
+      max-width: 400px;
+      height: 500px;
+      /* background-color: black; */
+      /* outline: 2px solid red; */
+      box-sizing: content-box;
+      margin: 70px auto;
+      text-decoration: none;
+      text-align: center;
+      padding: 50px;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+      color: white;
+    }
+
+    .container h1 {
+      font-weight: 800;
+    }
+
+    .container a {
+      display: block;
+      /* text-align: left;  */
+      color: #d9d9d9;
+      /* outline: 2px solid red; */
+      /* text-decoration: none; */
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 200px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .input-text {
+      flex-grow: 1;
+      /* outline: 2px solid red; */
+      flex-basis: auto;
+      /* display: block; */
+      width: 300px;
+      height: 30px;
+      margin: 0 auto;
+      margin-top: 30px;
+      /* margin-bottom: 10px; */
+      border-radius: 20px;
+      border: none;
+      padding: 5px 20px;
+      background-color: #d9d9d9;
+      /* box-sizing: border-box; */
+    }
+
+    .password-container {
+      position: relative;
+    }
+
+    /* .password-toggle {
+      position: absolute;
+      right: 20px;
+      top: 55%;
+      transform: translateX(-200%);
+      /* transform: translateY(69%); */
+    /* cursor: pointer; */
+    /* } */
+    .button {
+      display: inline-block;
+      width: 150px;
+      height: 40px;
+      /* background-color:white; */
+      border-radius: 20px;
+      /* margin: 20px 10px; */
+      text-align: center;
+      line-height: 40px;
+      /* outline: 2px solid red; */
+    }
+
+    .btn-submit a {
+      display: inline-block;
+      /* outline: 2px solid red; */
+      margin: 20px 10px;
+      width: 150px;
+    }
+
+    .btn-signup {
+      background-color: none;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      /* padding: 10px; */
+    }
+
+    .btn-login {
+      background-color: #0063c6;
+      box-shadow: 1px 2px 2px rgba(255, 255, 255, 0.2);
+      transition: 0.2s;
+    }
+
+    .btn-login:active {
+      box-shadow: none;
+    }
+
+    .foot-trademark {
+      margin-top: 80px;
+      font-size: smaller;
+    }
+
+    @media (max-width: 700px) {
+      .input-text {
+        flex-grow: 1;
+        /* outline: 2px solid red; */
+        flex-basis: auto;
+        /* display: block; */
+        width: 200px;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 30px;
+        /* margin-bottom: 10px; */
+        border-radius: 20px;
+        border: none;
+        padding: 5px 20px;
+        background-color: #d9d9d9;
+        /* box-sizing: border-box; */
+      }
+
+      .container a {
+        display: inline-block;
+        /* text-align: left;  */
+        color: #d9d9d9;
+        /* outline: 2px solid red; */
+        /* text-decoration: none; */
+        margin-top: 20px;
+        /* margin-left: 20px; */
+        width: 200px;
+      }
+
+      .button {
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+        /* background-color:white; */
+        border-radius: 20px;
+        /* margin: 20px 10px; */
+        text-align: center;
+        line-height: 40px;
+        /* outline: 2px solid red; */
+      }
+
+      .btn-submit a {
+        display: inline-block;
+        /* outline: 2px solid red; */
+        margin: 20px 9px;
+        width: 100px;
+      }
+    }
+  </style>
+  <body>
+    <div class="wrapper-login">
+      <div class="container">
+        <img src="img/image 11.png" alt="" width="80px" />
+        <h1>HALO, MEMBER!</h1>
+        <form action="">
+          <input type="text" class="input-text" placeholder="Email" required />
+          <div class="password-container">
+            <input
+              type="password"
+              class="input-text"
+              placeholder="password"
+              maxlength="9"
+              required
+            />
+            <!-- <i class="password-toggle fa fa-eye" onclick="togglePassword()"></i> -->
+          </div>
+        </form>
+        <a href="" class="link">Forgot your password?</a>
+        <div class="btn-submit">
+          <a href="signuppage.html"
+            ><div class="btn-signup button">SIGNUP</div></a
+          >
+          <a href=""><div class="btn-login button">LOGIN</div></a>
+        </div>
+        <div class="foot-trademark">©PKM POLTEK GT | 2023</div>
+      </div>
+    </div>
+  </body>
+</html>

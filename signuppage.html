@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabunglah menjadi mitra | PKM POLTEK GT 2023</title>
+  </head>
+
+  <style>
+    body {
+      background-image: url(img/image\9\\1\.png);
+      /* background-attachment: fixed; */
+      /* filter: brightness(200); */
+    }
+
+    .wrapper-1 {
+      padding: 100px;
+      /* outline: 2px solid greenyellow; */
+    }
+    .container {
+      width: 100%;
+      min-height: 200px;
+      /* outline: 2px solid red; */
+      color: white;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    }
+
+    .tag-line {
+      color: white;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      /* outline: 2px solid blue; */
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    .item-1 {
+      flex-shrink: 1;
+      display: inline;
+      width: 100px;
+      height: auto;
+      /* outline: 2px solid gold; */
+    }
+
+    .item-1 h3 {
+      font-size: 20px;
+      margin: 10px 0 0 0;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .logo {
+      text-align: center;
+    }
+
+    .judul {
+      width: 200px;
+      padding-left: 20px;
+    }
+
+    form {
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-item {
+      /* outline: 2px solid red; */
+      position: relative;
+      /* height: 500px; */
+    }
+
+    form label {
+      /* outline: 2px solid red; */
+      position: absolute;
+      top: 43%;
+      left: 2%;
+      /* margin-top: 100px; */
+    }
+
+    .lb-password {
+      top: 23%;
+    }
+
+    .gender {
+      /* top:50%; */
+      position: static;
+      margin-left: 20px;
+    }
+
+    form input {
+      margin-top: 50px;
+      width: 400px;
+      height: 30px;
+      border-radius: 20px;
+      border: none;
+      padding: 5px 5px 5px 20px;
+      background-color: #d9d9d9;
+      /* outline: 2px solid red; */
+    }
+
+    form input:focus {
+      outline: none;
+    }
+
+    .input-first {
+      display: flex;
+      align-items: self-end;
+      /* outline: 2px solid red; */
+      flex-direction: row;
+    }
+
+    form .name {
+      width: 290px;
+    }
+
+    form select {
+      width: 100px;
+      height: 40px;
+      border-radius: 20px;
+      padding: 5px 10px 5px 20px;
+      border: none;
+      background-color: #d9d9d9;
+      margin-left: 10px;
+    }
+
+    form select option {
+      border: none;
+      outline: none;
+      border-radius: 20px;
+      /* background-color: black; */
+    }
+
+    form select option:checked {
+      outline: none;
+    }
+
+    .sk-label {
+      margin-left: 30px;
+      margin-top: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      width: 200px;
+      height: 40px;
+      /* outline: 2px solid red; */
+      border-radius: 20px;
+      text-align: center;
+      line-height: 40px;
+      color: white;
+      margin: 0 auto;
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+
+    .btn-login {
+      background-color: none;
+      border: 1px solid white;
+    }
+
+    .btn-signup {
+      background-color: #0063c6;
+    }
+
+    .footer {
+      display: block;
+      margin-top: 100px;
+      text-align: right;
+      width: 100%;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    @media (max-width: 500px) {
+      form input {
+        margin-top: 30px;
+        width: 250px;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        padding: 5px 5px 5px 20px;
+        background-color: #d9d9d9;
+        /* outline: 2px solid red; */
+      }
+
+      .container {
+        margin: 0 auto;
+      }
+
+      .wrapper-1 {
+        padding: 10px;
+        /* outline: 2px solid greenyellow; */
+      }
+
+      form label {
+        /* outline: 2px solid red; */
+        position: absolute;
+        top: 35%;
+        left: 2%;
+        /* margin-top: 100px; */
+      }
+
+      .lb-password {
+        top: 18%;
+      }
+
+      form .name {
+        width: 150px;
+      }
+
+      form select {
+        width: 80px;
+      }
+
+      .btn {
+        width: 120px;
+      }
+
+      .footer {
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  </style>
+  <body>
+    <div class="wrapper-1">
+      <div class="container">
+        <div class="tag-line">
+          <div class="logo item-1">
+            <img src="img/image 11.png" alt="" width="80px" href="index.html" />
+          </div>
+          <div class="judul item-1">
+            <h3>
+              Jadilah <br />
+              rekan kami
+            </h3>
+            Kelola sampah lebih baik.
+          </div>
+        </div>
+        <form action="" method="post">
+          <div class="input-first form-item">
+            <div class="input-nama flex-input">
+              
+              <label for="name" class="lb-nama">Nama</label><br />
+              <input type="text" class="name" />
+            </div>
+            <div class="input-gender flex-input">
+              <label for="gender" class="lb- gender">Gender</label>
+              <br />
+              <select name="gender" id="">
+                <option value="pria">Pria</option>
+                <option value="wanita">wanita</option>
+              </select>
+            </div>
+          </div>
+          <br />
+
+          <div class="email-clmn form-item">
+            <label for="email" class="lb-email">Email</label><br />
+            <input type="email" name="email" id="" />
+          </div>
+          <br />
+
+          <div class="passowrd-clmn form-item">
+            <label for="password" class="lb-password">Password</label
+            ><br /><input type="password" name="password" id="" maxlength="9" />
+            <br />
+            <input
+              type="password"
+              placeholder="Re-Type a Password"
+              maxlength="9"
+            />
+          </div>
+        </form>
+        <input type="checkbox" name="" id="s&k" class="sk-label" />Anda telah
+        menyetujui s&k yang berlaku <br />
+        
+        <a href="loginpage.html"> <div class="btn-login btn">LOGIN</div></a>
+        <a href=""><div class="btn-signup btn">SIGNUP</div></a>
+
+        <div class="footer">©PKM POLTEK GT | 2023</div>
+      </div>
+    </div>
+  </body>
+</html>
