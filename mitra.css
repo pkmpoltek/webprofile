@@ -1,0 +1,147 @@
+#wrapper-1 {
+  background-color: #24242e;
+  padding: 30px 30px 50px 30px;
+  color: white;
+}
+
+#wrapper-1 h1 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1.9px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+
+.head-item h1 {
+  margin-bottom: 0;
+}
+
+.welcome-1 {
+  /* width: 100%; */
+  min-height: 500px;
+  background-color: #24242e;
+  /* outline: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  /* padding: 30px 30px 0 30px; */
+  /* position: relative; */
+  flex-wrap: wrap;
+}
+
+.item-1 {
+  flex-grow: 1;
+  flex-basis: 200px;
+  /* width: 400px; */
+  color: white;
+  /* outline: 2px solid red; */
+  /* box-sizing: border-box; */
+}
+
+.welcome-1 .kanan-1 {
+  background-image: url(../img/orangbingung.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.welcome-1 h1 {
+  color: white;
+}
+
+.content-1 {
+  /* outline: 2px solid blue; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin-top: 0px;
+  text-align: left;
+  flex-wrap: wrap;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-shrink: 3;
+  align-items: stretch;
+}
+
+.text-item {
+  /* outline: 2px solid yellow; */
+  width: 100px;
+  flex-grow: 1;
+  flex-basis: 200px;
+  /* padding: 20px; */
+  /* justify-self: center; */
+}
+
+.text-item h4 {
+  letter-spacing: 2px;
+}
+
+.text-item p {
+  margin-top: 10px;
+
+  font-size: 15px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.text-1,
+.text-2,
+.text-3 {
+  padding: 59px;
+}
+
+#wrapper-2 {
+  position: relative;
+}
+
+.content-2 {
+  /* width: 100%; */
+  min-height: 300px;
+  /* outline: 2px solid red; */
+  background-color: #0da574;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  margin-top: -50px;
+  padding: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.content-2 h1 {
+  display: block;
+  max-width: 350px;
+  font-size: 60px;
+  letter-spacing: 2px;
+  margin: 0 auto;
+}
+
+.content-2 p {
+  display:block;
+  max-width: 350px;
+  margin-top: 50px;
+  letter-spacing: 2px;
+  line-height: 20px;
+  margin: 50px auto;
+}
+
+.content-2 a {
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.content-2 a .btn-gabung {
+  display: block;
+  width: 200px;
+  background-color: #0063c6;
+  height: 60px;
+  color: white;
+  line-height: 55px;
+  border-radius: 70px;
+  margin: 30px auto;
+  box-shadow: 2px 2px 2px rgb(109, 107, 107);
+  transition: 0.3s;
+}
+
+.content-2 a .btn-gabung:active {
+  box-shadow: none;
+}
